@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+  </script>
+</head>
+<body>
+<form>
+    <input id="datepicker" placeholder=" Enter the date " />
+</form>
+<div class="form-group">
+	<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Enter batch number" value="">
+</div>
+<form action="/action_page.php">
+  Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5">
+ </form>
+<div class="form-group">
+	<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Enter name of medicine" value="">
+</div>
+</body>
+</html>

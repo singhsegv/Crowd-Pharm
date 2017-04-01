@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1>Details of Medicine is: </h1>
+<ol>
+	{% for x in medicine_list %}
+		<l1><h4>{{ x.medicine_name }}</h4></l1>
+		<l1><h4>{{ x.expiry_date }}</h4></l1>
+		<l1><h4>{{ x.batch_no }}</h4></l1>
+		<l1><h4>{{ x.medicine_id }}</h4></l1>
+		<l1><h4>{{ x.quantity }}</h4></l1>
+		<l1><h4>{{ x.image }}</h4></l1>
+	{% endfor %}
+</ol>	
+</body>
+</html>
